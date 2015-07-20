@@ -1,0 +1,22 @@
+<div class = 'container header col-md-6'>
+
+	<h1 class ='styleme' style= 'padding-top:100px'>What Can You Do In One Month?</h1>
+	<p class = 'styleme2'>I'm challenging you to accomplish at least one of your goals in  the next month. <br>The challenge starts August 1st. This is going to be the biggest one <br>month goal challenge in history. Enter your email to receive access as soon as <br>the website is launched on July 31st.</p>
+<br>
+	<%= render 'layouts/email'%>
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript" language="JavaScript">
+		function set_body_height()
+		{
+		    var wh = $(window).height();
+		    $('body').attr('style', 'height:' + wh + 'px;');
+		}
+		$(document).ready(function() {
+		    set_body_height();
+		    $(window).bind('resize', function() { set_body_height(); });
+		});
+	</script>
+</div>
+
+

@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+* {
+	padding: 0;
+	margin:0;
+}
+
+.header {
+	 background: url('http://i.imgur.com/gPUed9d.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width:100;
+  padding: 0;
+  margin: 0;
+}
+
+.styleme {
+	color: white;
+	padding: 40px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.styleme2 {
+	text-align:center;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.styleme3 {
+	text-align:center;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.whitebackdrop {
+	width:800px;
+	background-color:white;
+	height: 100%;
+}
